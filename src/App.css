@@ -1,0 +1,190 @@
+
+:root{
+   --primary-color:#010927;
+   --secondry:rgba(152, 160, 165, 0.788);
+   --third:rgb(101, 94, 141);
+   --forth: rgba(169, 177, 182, 0.493);
+   --fifth: #19213d;
+}
+*{
+   padding: 0;
+   margin: 0;
+   text-decoration: none;
+   list-style: none;
+   box-sizing: border-box;
+}
+body{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  background: var(--primary-color);
+  
+  
+}
+nav{
+  
+  height: 10%;
+  width: 100%;
+  background: var(--primary-color);
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: var(--fifth);
+  z-index: 999;
+}
+
+nav{
+  display: flex;
+  justify-content: space-between;
+  padding:0rem  0.7rem;
+  box-shadow: 3px 3px 4px var(--forth);
+
+}
+nav ul li{
+  display: inline-block;
+  line-height: 3.5em;
+  margin: 0 5px;
+}
+nav ul li a{
+  color: var(--secondry);
+  font-size: 1rem;
+}
+a.bar,a:hover{
+  background-color: var(--third);
+}
+
+.logo_main{
+  display: flex;
+  align-items: center;
+  width: 30%;
+  gap: 0.9rem;
+}
+.logo-name{
+  color:var(--secondry);
+}
+
+.logo-imgs{
+  
+  width: 35%;
+
+}
+.pop{
+  color: var(--secondry);
+}
+.jeje{
+  display: flex;
+  padding: 8%;
+  gap: 4.2rem;
+  flex-direction: row;
+}
+.kiara{
+  display: flex;
+  padding: 8%;
+  gap: 4.2rem;
+  flex-direction: row;
+  
+}
+.pops{
+  color: var(--secondry);
+}
+.pops {
+  color: white;
+}
+/* .watch{
+  height: 2%;
+  width: 10%;
+  position: inherit;
+ padding: auto;
+
+} */
+.center{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -20%);
+  color: var(--secondry);
+  text-shadow: 3px 3px 4px var(--forth);
+  z-index: 0;
+}
+.watch{
+  padding: 1.5%;
+  width: 23%;
+  border-radius: 2em;
+ color: #FF7A00;
+ 
+
+ 
+}
+.watch:hover{
+  background-color: var(--forth);
+  transition: 0.8s;
+  cursor: pointer;
+}
+.join:hover{
+  background-color: var(--forth);
+  transition: 0.8s;
+  cursor: pointer;
+}
+
+.button{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 1rem;
+}
+.join{
+  padding: 2%;
+  width: 23%;
+  height: 14%;
+
+}
+.caption{
+  color: white;
+}
+.ball{
+  object-fit: cover;
+}
+
+ 
+  
+ 
+
+.two{
+  align-items: center;
+  text-align: center;
+  padding: 10%;
+}
+.val{
+  border-left: 6px solid green;
+  height: 500px;
+}
+.vlad{
+  border-right: 6px solid green;
+  /* height: 2%;
+  width: 20%; */
+}
+.ward{
+  display: flex;
+  padding: 8%;
+  gap: 5.2rem;
+}
+.h{
+  width: 70%;
+  height: 7px;
+  border: none;
+  margin-right: auto;
+  margin-left: auto;
+  background-color: var(--secondry);
+}
+.hs{
+  height: 20rem;
+  /* position: absolute; */
+  width: 7px;
+  border: none;
+  background-color: var(--secondry);
+}
+li {
+  color: white;
+ 
+}
+
+
+
